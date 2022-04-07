@@ -1,0 +1,4 @@
+/home/duo/sda/backwardslicing/build/CMakeFiles/rebuild_cache.dir
+/home/duo/sda/backwardslicing/build/CMakeFiles/edit_cache.dir
+/home/duo/sda/backwardslicing/build/CMakeFiles/Drchecker.dir
+/home/duo/sda/backwardslicing/build/CMakeFiles/intrinsics_gen.dir
