@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC   -shared -Wl,-soname,libDrchecker.so -o libDrchecker.so CMakeFiles/Drchecker.dir/mypass.cpp.o 
