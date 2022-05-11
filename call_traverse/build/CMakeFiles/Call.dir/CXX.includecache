@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/duo/sda/backwardslicing/call/subcallgraph.cpp
+/home/duo/sda/backwardslicing/call_traverse/subcallgraph.cpp
 llvm/Pass.h
-/home/duo/sda/backwardslicing/call/llvm/Pass.h
+/home/duo/sda/backwardslicing/call_traverse/llvm/Pass.h
 llvm/IR/Function.h
-/home/duo/sda/backwardslicing/call/llvm/IR/Function.h
+/home/duo/sda/backwardslicing/call_traverse/llvm/IR/Function.h
 llvm/Support/raw_ostream.h
-/home/duo/sda/backwardslicing/call/llvm/Support/raw_ostream.h
+/home/duo/sda/backwardslicing/call_traverse/llvm/Support/raw_ostream.h
 llvm/Analysis/CallGraph.h
-/home/duo/sda/backwardslicing/call/llvm/Analysis/CallGraph.h
+/home/duo/sda/backwardslicing/call_traverse/llvm/Analysis/CallGraph.h
 llvm/IR/LegacyPassManager.h
-/home/duo/sda/backwardslicing/call/llvm/IR/LegacyPassManager.h
+/home/duo/sda/backwardslicing/call_traverse/llvm/IR/LegacyPassManager.h
 llvm/Transforms/IPO/PassManagerBuilder.h
-/home/duo/sda/backwardslicing/call/llvm/Transforms/IPO/PassManagerBuilder.h
+/home/duo/sda/backwardslicing/call_traverse/llvm/Transforms/IPO/PassManagerBuilder.h
 llvm/Analysis/CallGraphSCCPass.h
-/home/duo/sda/backwardslicing/call/llvm/Analysis/CallGraphSCCPass.h
+/home/duo/sda/backwardslicing/call_traverse/llvm/Analysis/CallGraphSCCPass.h
 llvm/Support/CommandLine.h
-/home/duo/sda/backwardslicing/call/llvm/Support/CommandLine.h
+/home/duo/sda/backwardslicing/call_traverse/llvm/Support/CommandLine.h
 
 /usr/lib/llvm-10/include/llvm-c/DataTypes.h
 cmath

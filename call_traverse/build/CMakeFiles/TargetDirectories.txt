@@ -1,4 +1,4 @@
-/home/duo/sda/backwardslicing/call/build/CMakeFiles/rebuild_cache.dir
-/home/duo/sda/backwardslicing/call/build/CMakeFiles/edit_cache.dir
-/home/duo/sda/backwardslicing/call/build/CMakeFiles/Call.dir
-/home/duo/sda/backwardslicing/call/build/CMakeFiles/intrinsics_gen.dir
+/home/duo/sda/backwardslicing/call_traverse/build/CMakeFiles/rebuild_cache.dir
+/home/duo/sda/backwardslicing/call_traverse/build/CMakeFiles/edit_cache.dir
+/home/duo/sda/backwardslicing/call_traverse/build/CMakeFiles/Call.dir
+/home/duo/sda/backwardslicing/call_traverse/build/CMakeFiles/intrinsics_gen.dir

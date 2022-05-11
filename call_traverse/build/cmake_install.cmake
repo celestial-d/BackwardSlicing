@@ -1,4 +1,4 @@
-# Install script for directory: /home/duo/sda/backwardslicing/call
+# Install script for directory: /home/duo/sda/backwardslicing/call_traverse
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/duo/sda/backwardslicing/call/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/duo/sda/backwardslicing/call_traverse/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

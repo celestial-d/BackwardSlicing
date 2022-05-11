@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/duo/sda/backwardslicing/call/subcallgraph.cpp" "/home/duo/sda/backwardslicing/call/build/CMakeFiles/Call.dir/subcallgraph.cpp.o"
+  "/home/duo/sda/backwardslicing/call_traverse/subcallgraph.cpp" "/home/duo/sda/backwardslicing/call_traverse/build/CMakeFiles/Call.dir/subcallgraph.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
