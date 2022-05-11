@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Drchecker
+# Target rules for targets named Slicing
 
 # Build rule for target.
-Drchecker: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Drchecker
-.PHONY : Drchecker
+Slicing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Slicing
+.PHONY : Slicing
 
 # fast build rule for target.
-Drchecker/fast:
-	$(MAKE) -f CMakeFiles/Drchecker.dir/build.make CMakeFiles/Drchecker.dir/build
-.PHONY : Drchecker/fast
+Slicing/fast:
+	$(MAKE) -f CMakeFiles/Slicing.dir/build.make CMakeFiles/Slicing.dir/build
+.PHONY : Slicing/fast
 
 #=============================================================================
 # Target rules for targets named intrinsics_gen
@@ -142,7 +142,7 @@ BackwardSlicing.o: BackwardSlicing.cpp.o
 
 # target to build an object file
 BackwardSlicing.cpp.o:
-	$(MAKE) -f CMakeFiles/Drchecker.dir/build.make CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.o
+	$(MAKE) -f CMakeFiles/Slicing.dir/build.make CMakeFiles/Slicing.dir/BackwardSlicing.cpp.o
 .PHONY : BackwardSlicing.cpp.o
 
 BackwardSlicing.i: BackwardSlicing.cpp.i
@@ -151,7 +151,7 @@ BackwardSlicing.i: BackwardSlicing.cpp.i
 
 # target to preprocess a source file
 BackwardSlicing.cpp.i:
-	$(MAKE) -f CMakeFiles/Drchecker.dir/build.make CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.i
+	$(MAKE) -f CMakeFiles/Slicing.dir/build.make CMakeFiles/Slicing.dir/BackwardSlicing.cpp.i
 .PHONY : BackwardSlicing.cpp.i
 
 BackwardSlicing.s: BackwardSlicing.cpp.s
@@ -160,7 +160,7 @@ BackwardSlicing.s: BackwardSlicing.cpp.s
 
 # target to generate assembly for a file
 BackwardSlicing.cpp.s:
-	$(MAKE) -f CMakeFiles/Drchecker.dir/build.make CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.s
+	$(MAKE) -f CMakeFiles/Slicing.dir/build.make CMakeFiles/Slicing.dir/BackwardSlicing.cpp.s
 .PHONY : BackwardSlicing.cpp.s
 
 # Help Target
@@ -171,7 +171,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Drchecker"
+	@echo "... Slicing"
 	@echo "... intrinsics_gen"
 	@echo "... BackwardSlicing.o"
 	@echo "... BackwardSlicing.i"

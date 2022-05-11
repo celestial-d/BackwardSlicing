@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.o"
+  "CMakeFiles/Drchecker.dir/mypass.cpp.o"
   "libDrchecker.pdb"
   "libDrchecker.so"
 )

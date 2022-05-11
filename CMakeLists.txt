@@ -32,6 +32,6 @@ endif()
 #===============================================================================
 # 3. ADD THE TARGET
 #===============================================================================
-##add_library(Drchecker SHARED mypass.cpp)
-add_library(Drchecker SHARED BackwardSlicing.cpp)
+#add_library(Drchecker SHARED mypass.cpp)
+add_library(Slicing SHARED BackwardSlicing.cpp)
 

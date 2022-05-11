@@ -57,27 +57,27 @@ include CMakeFiles/Drchecker.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Drchecker.dir/flags.make
 
-CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.o: CMakeFiles/Drchecker.dir/flags.make
-CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.o: ../BackwardSlicing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duo/sda/backwardslicing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.o -c /home/duo/sda/backwardslicing/BackwardSlicing.cpp
+CMakeFiles/Drchecker.dir/mypass.cpp.o: CMakeFiles/Drchecker.dir/flags.make
+CMakeFiles/Drchecker.dir/mypass.cpp.o: ../mypass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duo/sda/backwardslicing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Drchecker.dir/mypass.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Drchecker.dir/mypass.cpp.o -c /home/duo/sda/backwardslicing/mypass.cpp
 
-CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/duo/sda/backwardslicing/BackwardSlicing.cpp > CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.i
+CMakeFiles/Drchecker.dir/mypass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Drchecker.dir/mypass.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/duo/sda/backwardslicing/mypass.cpp > CMakeFiles/Drchecker.dir/mypass.cpp.i
 
-CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/duo/sda/backwardslicing/BackwardSlicing.cpp -o CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.s
+CMakeFiles/Drchecker.dir/mypass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Drchecker.dir/mypass.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/duo/sda/backwardslicing/mypass.cpp -o CMakeFiles/Drchecker.dir/mypass.cpp.s
 
 # Object files for target Drchecker
 Drchecker_OBJECTS = \
-"CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.o"
+"CMakeFiles/Drchecker.dir/mypass.cpp.o"
 
 # External object files for target Drchecker
 Drchecker_EXTERNAL_OBJECTS =
 
-libDrchecker.so: CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.o
+libDrchecker.so: CMakeFiles/Drchecker.dir/mypass.cpp.o
 libDrchecker.so: CMakeFiles/Drchecker.dir/build.make
 libDrchecker.so: CMakeFiles/Drchecker.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/duo/sda/backwardslicing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libDrchecker.so"

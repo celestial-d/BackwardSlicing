@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/duo/sda/backwardslicing/BackwardSlicing.cpp" "/home/duo/sda/backwardslicing/build/CMakeFiles/Drchecker.dir/BackwardSlicing.cpp.o"
+  "/home/duo/sda/backwardslicing/mypass.cpp" "/home/duo/sda/backwardslicing/build/CMakeFiles/Drchecker.dir/mypass.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
