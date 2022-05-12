@@ -23,8 +23,8 @@ struct Call : public CallGraphSCCPass {
     for (CallGraphNode *CGN : SCC) {
     	errs() << "new scc" << '\n';
     	if (Function *F = CGN->getFunction()) {
-    		//if (F->getName() == target) 
-    		//	flag=1;
+    		if (F->getName() == target) 
+    			flag=1;
     		if (flag==1)
     			errs() << "function: "<< F->getName() << '\n';
     	}
