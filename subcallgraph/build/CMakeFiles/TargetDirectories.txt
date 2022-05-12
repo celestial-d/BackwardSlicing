@@ -1,0 +1,4 @@
+/home/duo/sda/backwardslicing/subcallgraph/build/CMakeFiles/rebuild_cache.dir
+/home/duo/sda/backwardslicing/subcallgraph/build/CMakeFiles/edit_cache.dir
+/home/duo/sda/backwardslicing/subcallgraph/build/CMakeFiles/TaintAnalysis.dir
+/home/duo/sda/backwardslicing/subcallgraph/build/CMakeFiles/intrinsics_gen.dir
