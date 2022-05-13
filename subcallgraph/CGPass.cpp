@@ -6,13 +6,16 @@
 void CallGraph::dump() const {
 	std::error_code error;
 	enum sys::fs::OpenFlags F_None;
-	StringRef fileName("cg.dot");
+	std::string name=entry+".dot";
+	StringRef fileName(name);
 	raw_fd_ostream file(fileName, error, F_None);
 	std::string dotString = "";
 	file << "digraph \"Call Graph\"{\n";
-	file << "label=" << target << ";\n";
+	file << "label=" << entry << ";\n";
 	for (Function* f : valueList) {
 		file << "Node" << f << " [shape=record, label=\"{" << f->getName() << "}\"];\n";
+		if(target==f->getName()) 
+			errs() << "Found it !!!!\n";
 	}
 	for (auto pairs : m_map) {
 		for (Function* second : pairs.second) {
@@ -28,7 +31,7 @@ void CallGraph::dump() const {
 bool CGPass::runOnModule(Module &M) {
 
 	//Function *main = M.getFunction("dax_visible");
-	Function *main = M.getFunction(target);
+	Function *main = M.getFunction(entry);
 	G = new CallGraph(main);
 	G->valueList.push_back(main);
 	if (!main) return false;

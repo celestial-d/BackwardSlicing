@@ -17,6 +17,7 @@ using namespace llvm;
 
 namespace {
 	static cl::opt<std::string> target("target",cl::desc("target funcion"),cl::value_desc("target"), cl::init(""));
+	static cl::opt<std::string> entry("entry",cl::desc("entry funcion"),cl::value_desc("entry"), cl::init(""));
 	class CallGraph {
 	public:
 		

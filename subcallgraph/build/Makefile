@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TaintAnalysis
+# Target rules for targets named callgraph
 
 # Build rule for target.
-TaintAnalysis: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TaintAnalysis
-.PHONY : TaintAnalysis
+callgraph: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 callgraph
+.PHONY : callgraph
 
 # fast build rule for target.
-TaintAnalysis/fast:
-	$(MAKE) -f CMakeFiles/TaintAnalysis.dir/build.make CMakeFiles/TaintAnalysis.dir/build
-.PHONY : TaintAnalysis/fast
+callgraph/fast:
+	$(MAKE) -f CMakeFiles/callgraph.dir/build.make CMakeFiles/callgraph.dir/build
+.PHONY : callgraph/fast
 
 #=============================================================================
 # Target rules for targets named intrinsics_gen
@@ -142,7 +142,7 @@ CGPass.o: CGPass.cpp.o
 
 # target to build an object file
 CGPass.cpp.o:
-	$(MAKE) -f CMakeFiles/TaintAnalysis.dir/build.make CMakeFiles/TaintAnalysis.dir/CGPass.cpp.o
+	$(MAKE) -f CMakeFiles/callgraph.dir/build.make CMakeFiles/callgraph.dir/CGPass.cpp.o
 .PHONY : CGPass.cpp.o
 
 CGPass.i: CGPass.cpp.i
@@ -151,7 +151,7 @@ CGPass.i: CGPass.cpp.i
 
 # target to preprocess a source file
 CGPass.cpp.i:
-	$(MAKE) -f CMakeFiles/TaintAnalysis.dir/build.make CMakeFiles/TaintAnalysis.dir/CGPass.cpp.i
+	$(MAKE) -f CMakeFiles/callgraph.dir/build.make CMakeFiles/callgraph.dir/CGPass.cpp.i
 .PHONY : CGPass.cpp.i
 
 CGPass.s: CGPass.cpp.s
@@ -160,7 +160,7 @@ CGPass.s: CGPass.cpp.s
 
 # target to generate assembly for a file
 CGPass.cpp.s:
-	$(MAKE) -f CMakeFiles/TaintAnalysis.dir/build.make CMakeFiles/TaintAnalysis.dir/CGPass.cpp.s
+	$(MAKE) -f CMakeFiles/callgraph.dir/build.make CMakeFiles/callgraph.dir/CGPass.cpp.s
 .PHONY : CGPass.cpp.s
 
 # Help Target
@@ -171,7 +171,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... TaintAnalysis"
+	@echo "... callgraph"
 	@echo "... intrinsics_gen"
 	@echo "... CGPass.o"
 	@echo "... CGPass.i"

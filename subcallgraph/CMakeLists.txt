@@ -32,5 +32,5 @@ endif()
 #===============================================================================
 # 3. ADD THE TARGET
 #===============================================================================
-add_library(TaintAnalysis SHARED CGPass.cpp)
+add_library(callgraph SHARED CGPass.cpp)
 

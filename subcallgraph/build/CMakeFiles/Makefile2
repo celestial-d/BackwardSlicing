@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/duo/sda/backwardslicing/subcallgraph/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/TaintAnalysis.dir/all
+all: CMakeFiles/callgraph.dir/all
 
 .PHONY : all
 
@@ -63,37 +63,37 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/TaintAnalysis.dir/clean
+clean: CMakeFiles/callgraph.dir/clean
 clean: CMakeFiles/intrinsics_gen.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/TaintAnalysis.dir
+# Target rules for target CMakeFiles/callgraph.dir
 
 # All Build rule for target.
-CMakeFiles/TaintAnalysis.dir/all:
-	$(MAKE) -f CMakeFiles/TaintAnalysis.dir/build.make CMakeFiles/TaintAnalysis.dir/depend
-	$(MAKE) -f CMakeFiles/TaintAnalysis.dir/build.make CMakeFiles/TaintAnalysis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/duo/sda/backwardslicing/subcallgraph/build/CMakeFiles --progress-num=1,2 "Built target TaintAnalysis"
-.PHONY : CMakeFiles/TaintAnalysis.dir/all
+CMakeFiles/callgraph.dir/all:
+	$(MAKE) -f CMakeFiles/callgraph.dir/build.make CMakeFiles/callgraph.dir/depend
+	$(MAKE) -f CMakeFiles/callgraph.dir/build.make CMakeFiles/callgraph.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/duo/sda/backwardslicing/subcallgraph/build/CMakeFiles --progress-num=1,2 "Built target callgraph"
+.PHONY : CMakeFiles/callgraph.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/TaintAnalysis.dir/rule: cmake_check_build_system
+CMakeFiles/callgraph.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/duo/sda/backwardslicing/subcallgraph/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TaintAnalysis.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/callgraph.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/duo/sda/backwardslicing/subcallgraph/build/CMakeFiles 0
-.PHONY : CMakeFiles/TaintAnalysis.dir/rule
+.PHONY : CMakeFiles/callgraph.dir/rule
 
 # Convenience name for target.
-TaintAnalysis: CMakeFiles/TaintAnalysis.dir/rule
+callgraph: CMakeFiles/callgraph.dir/rule
 
-.PHONY : TaintAnalysis
+.PHONY : callgraph
 
 # clean rule for target.
-CMakeFiles/TaintAnalysis.dir/clean:
-	$(MAKE) -f CMakeFiles/TaintAnalysis.dir/build.make CMakeFiles/TaintAnalysis.dir/clean
-.PHONY : CMakeFiles/TaintAnalysis.dir/clean
+CMakeFiles/callgraph.dir/clean:
+	$(MAKE) -f CMakeFiles/callgraph.dir/build.make CMakeFiles/callgraph.dir/clean
+.PHONY : CMakeFiles/callgraph.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/intrinsics_gen.dir
